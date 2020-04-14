@@ -22,21 +22,25 @@ namespace Inheritance
 
 
 
-            Bird Tweety = new Bird()
-              {
+            Bird tweety = new Bird();
+            {
+                tweety.NumberOfWings = 2;
+                tweety.CanFly = true;
+                tweety.Eyes = 2;
+                tweety.BeakLength = "nine inches";
+            }
+        /*Create an object of your Bird class
+         *  give values to your members using the object of your Bird class
+         *  
+         * Creatively display the class member values 
+         */
 
-              }
-            /*Create an object of your Bird class
-             *  give values to your members using the object of your Bird class
-             *  
-             * Creatively display the class member values 
-             */
-
-            /*Create an object of your Reptile class
-             *  give values to your members using the object of your Bird class
-             *  
-             * Creatively display the class member values 
-             */
-        }
+        /*Create an object of your Reptile class
+         *  give values to your members using the object of your Bird class
+         *  
+         * Creatively display the class member values 
+         */
     }
-}
+    }
+    }
+
