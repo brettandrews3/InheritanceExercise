@@ -13,16 +13,19 @@ namespace Inheritance
 
 
             // Create a class Bird
-            // give this class 4 members that are specific to Bird
-            // Set this class to inherit from your Animal Class
+            // DONE give this class 4 members that are specific to Bird
+            // DONE Set this class to inherit from your Animal Class
 
-            // Create a class Reptile
-            // give this class 4 members that are specific to Reptile
-            // Set this class to inherit from your Animal Class
-
-
+            // DONE Create a class Reptile
+            // DONE give this class 4 members that are specific to Reptile
+            // DONE Set this class to inherit from your Animal Class
 
 
+
+            Bird Tweety = new Bird()
+              {
+
+              }
             /*Create an object of your Bird class
              *  give values to your members using the object of your Bird class
              *  
