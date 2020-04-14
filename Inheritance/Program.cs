@@ -28,15 +28,29 @@ namespace Inheritance
                 tweety.CanFly = true;
                 tweety.Eyes = 2;
                 tweety.BeakLength = "nine inches";
+                Console.WriteLine($"Tweety has {tweety.NumberOfWings} wings, a beak of {tweety.BeakLength}, and {tweety.Eyes} eyes.");
+                Console.WriteLine();
+            }
+
+            Reptile croc = new Reptile();
+            {
+                croc.Eyes = 2;
+                croc.PetName = "Killer Croc";
+                croc.ScaleColor = "Greenish gray";
+                croc.Legs = 2; //because it's Killer Croc
+                Console.WriteLine($"Waylon Jones' criminal name is {croc.PetName}.");
+                Console.WriteLine($"His skin color is {croc.ScaleColor}.");
+                Console.WriteLine($"Since he's technically human, Croc has {croc.Legs} legs. ");
+                Console.WriteLine($"Killer Croc gets punched in his {croc.Eyes} eyes by Batman.");
             }
         /*Create an object of your Bird class
-         *  give values to your members using the object of your Bird class
+         * DONE give values to your members using the object of your Bird class
          *  
-         * Creatively display the class member values 
+         * DONE Creatively display the class member values 
          */
 
         /*Create an object of your Reptile class
-         *  give values to your members using the object of your Bird class
+         * DONE give values to your members using the object of your Bird class
          *  
          * Creatively display the class member values 
          */
